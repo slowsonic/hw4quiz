@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./assets/earth_logo.png.crdownload" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>World Geography Quiz</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a href="#" class="navbar-text float-left">Leaderboard</a>
+        <span class="navbar-text float-right">Time: <span id="timer">0</span></span>
+    </nav>
+    <div id="container" class="start-page mt-5">
+        <span id="title" class="h1">World Geography Quiz</span>
+        <p id="intro">
+            Do you want to play a game? This is a world geography quiz. You have only 60 seconds for 7 questions. Choose
+            carefully, but fast. Remember, if you answer incorrectly, you lose 10
+            seconds.
+        </p>
+        <button aria-label="start-game" id="start-btn" class="button">Start Game</button>
+        <div id="answer-index">
+            <button class="answer-btn"></button>
+            <button class="answer-btn"></button>
+            <button class="answer-btn"></button>
+            <button class="answer-btn"></button>
+        </div>
+        <div id="input-field">
+            <label for="initials">Your name:</label>
+            <input type="text" name="initials" id="initials" placeholder="your name or initials" />
+            <button id="submit-btn">Submit</button>
+        </div>
+        <div id="answer-msg"></div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

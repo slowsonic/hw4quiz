@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.answer-btn {
+  display: block;
+  margin: 15px 0;
+}
+.answer-msg {
+  display: none;
+  width: 100%;
+  color: black;
+  margin: 16px 0;
+  padding-top: 8px;
+  border-top: 2px solid gray;
+}
+.display-results,
+.game-page,
+.score-page {
+  text-align: left;
+}
+.start-page {
+  text-align: center;
+}
+
+#answer-index {
+  display: none;
+}
+#container {
+  overflow: auto;
+  max-width: 90%;
+  display: block;
+  margin: auto;
+}
+#initials {
+  margin: 0 0 0 15px;
+}
+#input-field {
+  display: none;
+}
+#title {
+  margin: 15px 0;
+  padding-bottom: 15px;
+}
+
+button {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(75, 25, 25, 1) 100%);
+  border: 1px solid #630c06;
+  border-radius: 5px;
+  padding: 2px 10px;
+  margin-right: 10px;
+}
+button:hover {
+  border: 2px black solid;
+}
+li {
+  border-radius: 2px;
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+p {
+  margin: 15px 0;
+}
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  #container {
+    max-width: 800px;
+  }
+}
+@media screen and (max-width: 470px) {
+  #initials {
+    display: block;
+    margin: 15px 0;
+  }
+}
